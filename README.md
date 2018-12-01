@@ -79,3 +79,56 @@ var quotient = 4.4 / 2.0; // Assigned 2.2
 
 var remainder = 11 % 3; //remainder gets the value 2
 
+//this - Basic JavaScript: Compound Assignment With Augmented Addition
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+var myVar =
+a += 12;
+b += 9;
+c += 7;
+
+//notthis
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+
+a = a + 12;
+b = 9 + b;
+c = c + 7;
+
+/*
+Compound Assignment With Augmented Addition
+PassedCompound Assignment With Augmented Subtraction
+PassedCompound Assignment With Augmented Multiplication
+PassedCompound Assignment With Augmented Division
+*/
+
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+
+var myFirstName = "J";
+var myLastName = "T";
+
+/*
+Escaping Literal Quotes in Strings
+When you need to use a special character such as " inside a string you need to escape it using \.
+If you use double quotes " for the string, single quotes ' in the string do not need to be escaped.
+If you use single quotes ' for the string, double quotes " in the string do not need to be escaped.
+*/
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+var otherStr = 'I am a \'single quoted\' string inside \'single quotes\'.';
+var noEscapeSingle = "There is no need to 'escape' the single quotes.";
+var noEscapeDouble = 'There is no need to "escape" the double quotes.';
+
+//String values in JavaScript may be written with single or double quotes, as long as you start and end with the same type of quote. Unlike some other programming languages, single and double quotes work the same in JavaScript. eg:
+conversation = 'Finn exclaims to Jake, "Algebraic!"';
